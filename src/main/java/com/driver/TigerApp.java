@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class TigerApp {
     public static void main(String[] args) {
         @SuppressWarnings("resource")
-		ApplicationContext context = new AnnotationConfigApplicationContext(TigerConfig.class);
+        ApplicationContext context = new AnnotationConfigApplicationContext(TigerConfig.class);
         TigerHabitat tigerHabitat = context.getBean(TigerHabitat.class);
 
         Scanner scanner = new Scanner(System.in);
@@ -91,4 +91,3 @@ public class TigerApp {
         }
     }
 }
-

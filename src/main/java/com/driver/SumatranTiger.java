@@ -21,4 +21,3 @@ public class SumatranTiger implements Tiger {
         return "Tropical";
     }
 }
-

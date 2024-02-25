@@ -26,4 +26,3 @@ public class TigerConfig {
         return new TigerHabitat();
     }
 }
-

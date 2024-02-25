@@ -21,4 +21,3 @@ public class BengalTiger implements Tiger {
         return "Subtropical";
     }
 }
-

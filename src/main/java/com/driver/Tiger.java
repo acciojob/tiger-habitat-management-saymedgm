@@ -6,4 +6,3 @@ public interface Tiger {
     double getAverageWeight();
     String getPreferredClimate();
 }
-
